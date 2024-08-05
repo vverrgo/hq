@@ -1,9 +1,9 @@
 body, html{
-	background-color: black;
+	background-color: ivory;
 }
 
 nav{
-	background-color: ivory;
+	background-color: black;
 }
 
 nav ul{
@@ -12,4 +12,19 @@ nav ul{
 
 nav ul li a{
 	text-decoration: none;
+	color: red;
 }
+
+.dropdown{
+
+}
+
+
+.sep{
+	width: 470px;
+    height: 10px;
+    background-color: black;
+    margin: 70px auto;
+    border-radius: 70%;
+}
+
