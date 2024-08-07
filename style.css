@@ -1,0 +1,8 @@
+body, html{
+	background-color: black;
+}
+
+
+.navbar a.split{
+	float: right;
+}
