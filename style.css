@@ -2,6 +2,29 @@ body, html{
 	background-color: ivory;
 }
 
+.bg-img {
+  /* The image used */
+  background-image: url("img/blacktslide1.jpg");
+
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+
 .navbar {
   overflow: hidden;
   background-color: ivory;
