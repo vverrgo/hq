@@ -2,6 +2,30 @@ body, html{
 	background-color: ivory;
 }
 
+h1{
+  font-weight: bold;
+  font-size: 50px;
+  background-color: black;
+  color: ivory;
+  text-align: center;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.profile{
+  float: left;
+  border-radius: 50%;
+
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -221,3 +245,4 @@ body, html{
 .navbar a.split{
   float: right;
 }
+
