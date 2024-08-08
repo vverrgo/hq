@@ -2,6 +2,94 @@ body, html{
 	background-color: ivory;
 }
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/*   NAVBAR  /*
 /* Add a black background color to the top navigation */
 .navbar {
   background-color: black;
@@ -37,7 +125,7 @@ body, html{
 }
 
 /* Style the dropdown button to fit inside the topnav */
-.dropdown .dropbtn {
+.dropdown .dropbtn{
   font-size: 17px;
   border: none;
   outline: none;
@@ -46,10 +134,16 @@ body, html{
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: red;
 }
 
 /* Style the dropdown content (hidden by default) */
-.dropdown-content {
+.dropdown-content{
   display: none;
   position: absolute;
   background-color: black;
@@ -59,7 +153,7 @@ body, html{
 }
 
 /* Style the links inside the dropdown */
-.dropdown-content a {
+.dropdown-content a{
   float: none;
   color: ivory;
   padding: 12px 16px;
@@ -69,7 +163,7 @@ body, html{
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn{
   background-color: red;
   color: white;
 }
@@ -84,6 +178,7 @@ body, html{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
