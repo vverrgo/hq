@@ -246,3 +246,10 @@ p{
   float: right;
 }
 
+.sep{
+  width: 470px;
+  height: 10px;
+  background-color: black;
+  margin: 70px auto;
+  border-radius: 50%;
+}
