@@ -1,5 +1,5 @@
 body, html{
-	background-color: ivory;
+	background-color: ghostwhite;
 }
 
 h1{
@@ -21,6 +21,10 @@ p{
   font-size: 20px;
 }
 
+footer{
+  text-align: left;
+}
+
 .row {
   display: flex;
 }
@@ -32,12 +36,16 @@ p{
   font-size: 30px;
   font-weight: bold;
   background-color: red;
+  border: 3px solid rgba(0, 0, 0, 1.0);
 
 }
 
 .column a{
   text-decoration: none;
   color: black;
+  border: 3px solid;
+  background-color: ivory;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
 }
 
 .row2{
@@ -47,9 +55,6 @@ p{
 
 .profile{
   float: left;
-  border-radius: 50%;
-  padding-top: 80px;
-
 }
 
 /* Slideshow container */
